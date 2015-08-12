@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top Drawer</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+<body id="slider">
+  <header></header><!--header-->
+  <section class="main-nav index-nav">
+    <nav>
+      <h1><a href="index.html">Top Drawer</a></h1>
+      <ul>
+        <li><a href="artists.html">Artists</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </section><!--section-->
+  <script>
+    // Duration is the amount of time in between slides,
+  // and fade is value that determines how quickly the next image will fade in
+  $('#slider').backstretch([
+      "/../images/bennyPalmer/2.jpg"
+    , "/../images/bennyPalmer/8.jpg"
+    , "/../images/bennyPalmer/3.jpg"
+  ], {duration: 3000, fade: 750});
+  </script>
+</body>
+</html>

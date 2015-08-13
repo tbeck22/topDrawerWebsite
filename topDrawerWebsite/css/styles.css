@@ -473,23 +473,33 @@ user-select: none;
 
 .about-art {
   width: 95%;
-  margin: 0 auto;
-  padding: 15px 0 40px 0;
+  margin:0 auto;
+  padding: 25px 0;
 }
 
 .about-art h1 {
   font-weight: normal;
-  font-size: 15px;
   text-transform: uppercase;
-  padding: 10px 0;
+  font-size: 15px;
   border-bottom: 1px solid grey;
+  padding-bottom: 5px;
 }
 
 .about-art p {
-  padding: 18px 0;
   font-size: 15px;
+  padding-top: 15px;
   line-height: 23px;
   text-align: justify;
+}
+
+.about-art a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.about-art a:hover {
+  text-decoration: underline;
 }
 
 
